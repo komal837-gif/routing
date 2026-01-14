@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0;
+    background-color: #ededed;
+     font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.card {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: #f8fafc;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+.card h2{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
